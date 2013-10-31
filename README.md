@@ -1,0 +1,1 @@
+Agile Web Development With Rails 4.0 by Sam Ruby, Dave Thomas, David Heinemeier Hansson
