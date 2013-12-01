@@ -7,9 +7,11 @@
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
 #---
 Depot::Application.routes.draw do
-  get "store/index"
-  resources :products
+  resources :carts
 
+  resources :line_items  
+  resources :products
+  get "store/index" => "store#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
   # See how all your routes lay out with "rake routes".
